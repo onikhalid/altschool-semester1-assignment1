@@ -10,6 +10,7 @@
 :root {
     --secondary-clr: #7b7b7b;
     --accent-purple: #6b70f5;
+    --dark-accent-purple: #575cef;
     --creamy: #fff6ee;
 }
 
@@ -90,7 +91,7 @@ nav ul {
         }
 
         a.active {
-            color: var(--accent-purple) !important;
+            color: var(--dark-accent-purple) !important;
             text-decoration: underline;
             text-decoration-color: var(--accent-purple);
 
@@ -208,20 +209,6 @@ nav ul {
             ul,
             li {
                 line-height: 1.5;
-            }
-
-            mark {
-                background: rgba(107, 112, 245, 0.4);
-                padding: 0.25rem 0.75rem;
-                border-radius: 0.25rem;
-                color: var(--secondary-clr);
-                transition: background-color ease-in-out .35s;
-
-                &:hover {
-                    color: white !important;
-                    background-color: var(--accent-purple);
-                }
-
             }
         }
 
