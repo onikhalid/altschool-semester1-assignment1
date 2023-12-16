@@ -68,6 +68,9 @@ a {
         text-decoration-thickness: 2.5px;
     }
 }
+mark{
+    appearance: none;
+}
 
 nav ul {
     position: fixed;
